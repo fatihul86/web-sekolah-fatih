@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #00d0ff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.vision-mission {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.vision, .mission {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+}
+
+.vision h2, .mission h2 {
+    margin-top: 0;
+}
+
+.vision p {
+    margin-bottom: 0;
+}
+
+.mission ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
